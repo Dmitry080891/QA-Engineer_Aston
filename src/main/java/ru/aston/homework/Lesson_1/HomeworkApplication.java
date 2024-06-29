@@ -36,5 +36,32 @@ public class HomeworkApplication {
         Task_7 task7 = new Task_7();
         task7.definingBooleanNumbers();
 
+        System.out.println("Задание № 8");
+        Task_8 task8 = new Task_8();
+        task8.printString();
+
+        System.out.println("Задание № 9");
+        Task_9 task9 = new Task_9();
+        task9.searchYear();
+
+        System.out.println("Задание № 10");
+        Task_10 task10 = new Task_10();
+        task10.changeNumber();
+
+        System.out.println("Задание № 11");
+        Task_11 task11 = new Task_11();
+        task11.inputNumber();
+
+        System.out.println("Задание № 12");
+        Task_12 task12 = new Task_12();
+        task12.multiplies();
+
+        System.out.println("Задание № 13");
+        Task_13 task13 = new Task_13();
+        task13.diagonalArrey();
+
+        System.out.println("Задание № 14");
+        Task_14 task14 = new Task_14();
+        task14.inputArrey();
     }
 }
