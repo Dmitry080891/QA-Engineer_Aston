@@ -13,6 +13,6 @@ public class Task_11 {
             System.out.print(" " + arrayNew[i]);
             a++;
         }
-        System.out.println();
+
     }
 }

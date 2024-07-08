@@ -8,13 +8,14 @@ import java.util.Scanner;
  */
 public class Task_14 {
     public void  inputArrey() {
-        Scanner scanner1 = new Scanner(System.in);
+       /* Scanner scanner1 = new Scanner(System.in);
         System.out.print("Введите длину одномерного массива: ");
         int len = scanner1.nextInt();
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("Все ячейки которого заполнены цифрой: ");
-        int initialValue = scanner2.nextInt();
-
+        int initialValue = scanner2.nextInt();*/
+        int len = 5;
+        int initialValue = 5;
         int [] task14= new int [len];
         System.out.print("Итоговый массив: " );
         for (int i = 0; i < len; i++) {

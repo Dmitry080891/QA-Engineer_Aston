@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Task_3 {
 
     public void printColor() {
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Введите любое целое число: ");
-        int value = scanner.nextInt();
-
+        int value = scanner.nextInt();*/
+        int value = 0;
         if (value <=0) {System.out.println("Красный");}
         else if (value > 100) { System.out.println("Зеленый"); }
         else  {System.out.println("Желтый");}

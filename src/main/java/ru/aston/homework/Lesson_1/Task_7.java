@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class Task_7 {
 
     public void definingBooleanNumbers() {
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Введите целое число: ");
-        int number = scanner.nextInt();
+        int number = scanner.nextInt();*/
+        int number = -8;
         boolean condition = number < 0;
         if (condition) {
             System.out.println(true);

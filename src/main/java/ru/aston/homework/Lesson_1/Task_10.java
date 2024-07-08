@@ -18,11 +18,11 @@ public class Task_10 {
             if (task10[i] == 0) {task10[i] = 1;}
             else  {task10[i] = 0;}
         }
-        System.out.println();
+
         System.out.println("Измененный массив: " );
         for (int i = 0; i < 10; i++) {System.out.print(" " + task10[i]);
         }
-        System.out.println();
+
     }
 
 }

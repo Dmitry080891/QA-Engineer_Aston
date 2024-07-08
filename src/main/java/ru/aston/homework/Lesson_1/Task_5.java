@@ -9,12 +9,14 @@ import java.util.Scanner;
  */
 public class Task_5 {
     public void sumNumbers() {
-        Scanner scanner1 = new Scanner(System.in);
+        /*Scanner scanner1 = new Scanner(System.in);
         System.out.print("Введите первое целое число: ");
         int number1 = scanner1.nextInt();
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("Введите второе целое число: ");
-        int number2 = scanner2.nextInt();
+        int number2 = scanner2.nextInt();*/
+        int number1 = 9;
+        int number2 = 8;
         int sum = number1 + number2;
         boolean condition1 = sum >= 10;
         boolean condition2 = sum <= 20;

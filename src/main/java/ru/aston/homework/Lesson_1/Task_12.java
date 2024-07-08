@@ -14,11 +14,11 @@ public class Task_12 {
         for (int i = 0; i < 12; i++) {
             if (task12[i] < 6) {task12[i] = task12[i] *2;}
                     }
-        System.out.println();
+
         System.out.print("Измененный массив: " );
         for (int i = 0; i < 12; i++) {System.out.print(" " + task12[i]);
         }
-        System.out.println();
+
     }
 
 
