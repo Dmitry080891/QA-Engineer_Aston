@@ -1,4 +1,5 @@
 package ru.aston.homework.Lesson_1;
+import java.util.Arrays;
 import java.util.Scanner;
 /*
 13. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
@@ -7,10 +8,12 @@ import java.util.Scanner;
 индексы таких элементов равны, то есть [0][0], [1][1], [2][2], ..., [n][n];
  */
 public class Task_13 {
+
     public void  diagonalArrey() {
-        Scanner scanner1 = new Scanner(System.in);
-        System.out.print("Введите размерность квадратного двумерного массива: ");
-        int a = scanner1.nextInt();
+       // Scanner scanner1 = new Scanner(System.in);
+        //System.out.print("Введите размерность квадратного двумерного массива: ");
+        //int a = scanner1.nextInt();
+        int a = 5;
         int [][] task13= new int [a][a];
         System.out.println("Исходный массив: " );
         for (int i = 0; i < a; i++) {
@@ -19,21 +22,15 @@ public class Task_13 {
                 System.out.print(" " + task13[i][j]);}
             System.out.println();
         }
-        // изменение главной диагонали
-        for (int i = 0; i < a; i++) {
+            for (int i = 0; i < a; i++) {            // изменение главной диагонали
             for (int j =0; j < a; j++) {
             if (i == j) {task13[i][j] = 1;}}
         }
-        // изменение побочной диагонали
-        for (int i = 0; i < a; i++) {
+            for (int i = 0; i < a; i++) {          // изменение побочной диагонали
             for (int j =0; j < a; j++) {
                 task13[i][a-1-i] = 1;}
         }
         System.out.println("Итоговый массив: " );
-        for (int i = 0; i < a; i++) {
-            for (int j =0; j < a; j++) {
-                System.out.print(" " + task13[i][j]);}
-            System.out.println();
-        }
+        System.out.println(Arrays.deepToString(task13));
     }
 }

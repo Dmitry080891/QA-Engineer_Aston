@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HomeworkApplication {
     public static void main(String[] args) {
-      /*  SpringApplication.run(HomeworkApplication.class, args);
+      //SpringApplication.run(HomeworkApplication.class, args);
         System.out.println("Задание № 1");
         Task_1 task1 = new Task_1();
         task1.printThreeWords();
@@ -26,13 +26,13 @@ public class HomeworkApplication {
 
         System.out.println("Задание № 5");
         Task_5 task5 = new Task_5();
-        task5.sumNumbers();*/
+        task5.sumNumbers();
 
         System.out.println("Задание № 6");
         Task_6 task6 = new Task_6();
         task6.definingNumbers();
 
-     /*   System.out.println("Задание № 7");
+        System.out.println("Задание № 7");
         Task_7 task7 = new Task_7();
         task7.definingBooleanNumbers();
 
@@ -62,6 +62,6 @@ public class HomeworkApplication {
 
         System.out.println("Задание № 14");
         Task_14 task14 = new Task_14();
-        task14.inputArrey();*/
+        task14.inputArrey();
     }
 }

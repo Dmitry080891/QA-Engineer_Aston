@@ -10,13 +10,10 @@ import java.util.Scanner;
 public class Task_6 {
 
     public void definingNumbers() {
-       /* Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Введите любое целое число: ");
-        int number = scanner.nextInt();*/
-        int number = 0;
+        int number = scanner.nextInt();
         if (number >= 0 ) {System.out.println("Число "+ number + " является положительным.");}
         else  {System.out.println("Число "+ number + " является отрицательным.");}
-
     }
-
 }

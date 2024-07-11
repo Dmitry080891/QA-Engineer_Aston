@@ -8,17 +8,14 @@ import java.util.Scanner;
 Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.
  */
 public class Task_9 {
-    public void searchYear() {
+    public boolean searchYear() {
         /*Scanner scanner1 = new Scanner(System.in);
         System.out.print("Введите год для определения: ");
         int year = scanner1.nextInt();*/
         int year = 2024;
-        System.out.print("Год " + year + " является високосным? ");
-        if ((year % 4 == 0) ^ (year % 100 == 0) ^ (year % 400 == 0)) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        boolean condition = (year % 4 == 0) ^ (year % 100 == 0) ^ (year % 400 == 0);
+        System.out.println(condition);
+        return condition;
     }
 
 }

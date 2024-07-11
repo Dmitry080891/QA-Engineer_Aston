@@ -4,6 +4,7 @@ package ru.aston.homework.Lesson_1;
 С помощью цикла заполнить его значениями 1 2 3 4 5 6 7 8 ... 100;
  */
 public class Task_11 {
+
     public void inputNumber() {
         int [] arrayNew = new int[100];
         int a = 1;
@@ -13,6 +14,5 @@ public class Task_11 {
             System.out.print(" " + arrayNew[i]);
             a++;
         }
-
     }
 }

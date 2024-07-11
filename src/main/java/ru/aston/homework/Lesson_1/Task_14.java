@@ -1,12 +1,13 @@
 package ru.aston.homework.Lesson_1;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
 /*
 14. Написать метод, принимающий на вход два аргумента: len и initialValue,
 и возвращающий одномерный массив типа int длиной len, каждая ячейка которого равна initialValue.
  */
 public class Task_14 {
+
     public void  inputArrey() {
        /* Scanner scanner1 = new Scanner(System.in);
         System.out.print("Введите длину одномерного массива: ");

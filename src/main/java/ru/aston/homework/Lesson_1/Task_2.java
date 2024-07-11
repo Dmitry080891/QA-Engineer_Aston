@@ -21,6 +21,5 @@ public class Task_2 {
         int number2 = 34;
         if ((number1 + number2) >=0) {System.out.println("Сумма положительная = " + (number1 + number2));}
         else  {System.out.println("Сумма отрицательная = "+ (number1 + number2));}
-
     }
 }
