@@ -1,4 +1,4 @@
-package ru.aston.homework.Lesson_2;
+package ru.aston.homework.lesson_2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,6 +24,9 @@ public class HomeworkApplication {
         empsArray[4] = new Employee("Васькин", "Василий", "Висильевич",
                 "работяга", "vasya@gmail.com",
                 89189189189L, 15000, 35);
+        Park.Attraction[] attraction1= new Park.Attraction[2];
+        attraction1[0] = new Park("Парк Победы").new Attraction("Карусель","8:00 - 20:00", 300);
+        attraction1[1] = new Park("Парк Революции").new Attraction("Колесо обозрения","8:00 - 20:00", 500);
     }
 
 }

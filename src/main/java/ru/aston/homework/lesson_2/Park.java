@@ -1,18 +1,18 @@
-package ru.aston.homework.Lesson_2;
+package ru.aston.homework.lesson_2;
 /*
 3. Создать класс Park с внутренним классом, с помощью объектов которого можно хранить
 информацию об аттракционах, времени их работы и стоимости.
  */
 public class Park {
-    public String namePark;
+    private String namePark;
 
     public Park(String namePark) {
         this.namePark = namePark;
     }
     public class Attraction {
-        public String nameAttraction;
-        public String timeWork;
-        public Integer price;
+        private String nameAttraction;
+        private String timeWork;
+        private Integer price;
 
         public Attraction(String nameAttraction, String timeWork, Integer price) {
             this.nameAttraction = nameAttraction;
