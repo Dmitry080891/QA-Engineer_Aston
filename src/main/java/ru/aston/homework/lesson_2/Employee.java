@@ -27,8 +27,38 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
+    public String getLastName() {
+        return lastName;
+    }
 
-    @Override
+    public String getName() {
+        return name;
+    }
+
+    public String getPatronimic() {
+        return patronimic;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Long getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public Integer getSalary() {
+        return salary;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+   /* @Override
     public String toString() {
         return "Сотрудник: " +
                 "ФИО " + lastName +
@@ -40,5 +70,5 @@ public class Employee {
                 ", зарплата " + salary +
                 ", возраст " + age +
                 '.';
-    }
+    }*/
 }
