@@ -26,7 +26,7 @@ public class HomeworkApplication {
 
         System.out.println("Задание № 5");
         Task_5 task5 = new Task_5();
-        task5.sumNumbers();
+        System.out.println(task5.sumNumbers(5, 8));
 
         System.out.println("Задание № 6");
         Task_6 task6 = new Task_6();
