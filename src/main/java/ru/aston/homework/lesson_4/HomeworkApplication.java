@@ -1,8 +1,5 @@
 package ru.aston.homework.lesson_4;
-
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
 public class HomeworkApplication {
     public static void main(String[] args) {
@@ -14,13 +11,10 @@ public class HomeworkApplication {
         try {
             int result = SumArrayElements.sumArrayElements(array);
             System.out.println("Сумма элементов массива: " + result);
-        } catch (MyArraySizeException e) {
-            System.out.println(e);
-        } catch (MyArrayDataException e) {
+        } catch (MyArraySizeException | MyArrayDataException e) {
             System.out.println(e);
         }
     }
-
 }
 
 

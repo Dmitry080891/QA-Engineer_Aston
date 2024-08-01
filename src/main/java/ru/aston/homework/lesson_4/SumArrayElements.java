@@ -1,5 +1,4 @@
 package ru.aston.homework.lesson_4;
-
 public class SumArrayElements {
     public static int sumArrayElements(String[][] array) throws MyArraySizeException, MyArrayDataException {
         if (array.length != 4 || array[0].length != 4) {
