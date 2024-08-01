@@ -1,20 +1,11 @@
 package ru.aston.homework.Lesson_1;
-
-import java.util.Scanner;
-
 /*
 7. Напишите метод, которому в качестве параметра передается целое число.
 Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
 Замечание: ноль считаем положительным числом.
  */
 public class Task_7 {
-
-    public boolean definingBooleanNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите целое число: ");
-        int number = scanner.nextInt();
-        boolean condition = number < 0;
-        System.out.println(condition);
-        return condition;
+    public boolean definingBooleanNumbers(int number) {
+        return number < 0;
     }
 }

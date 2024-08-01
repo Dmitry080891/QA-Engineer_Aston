@@ -1,7 +1,4 @@
 package ru.aston.homework.Lesson_1;
-
-import java.util.Scanner;
-
 /*
 9. Напишите метод, который определяет, является ли год високосным,
 и возвращает boolean (високосный - true, не високосный - false).
@@ -9,9 +6,6 @@ import java.util.Scanner;
  */
 public class Task_9 {
     public boolean searchYear() {
-        /*Scanner scanner1 = new Scanner(System.in);
-        System.out.print("Введите год для определения: ");
-        int year = scanner1.nextInt();*/
         int year = 2024;
         boolean condition = (year % 4 == 0) ^ (year % 100 == 0) ^ (year % 400 == 0);
         System.out.println(condition);

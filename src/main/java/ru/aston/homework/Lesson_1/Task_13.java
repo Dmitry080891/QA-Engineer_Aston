@@ -1,6 +1,5 @@
 package ru.aston.homework.Lesson_1;
 import java.util.Arrays;
-import java.util.Scanner;
 /*
 13. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
 и с помощью цикла(-ов) заполнить его диагональные элементы единицами (можно только одну из диагоналей,
@@ -8,11 +7,7 @@ import java.util.Scanner;
 индексы таких элементов равны, то есть [0][0], [1][1], [2][2], ..., [n][n];
  */
 public class Task_13 {
-
     public void  diagonalArrey() {
-       // Scanner scanner1 = new Scanner(System.in);
-        //System.out.print("Введите размерность квадратного двумерного массива: ");
-        //int a = scanner1.nextInt();
         int a = 5;
         int [][] task13= new int [a][a];
         System.out.println("Исходный массив: " );

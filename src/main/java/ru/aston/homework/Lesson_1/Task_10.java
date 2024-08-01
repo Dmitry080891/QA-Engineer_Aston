@@ -1,5 +1,4 @@
 package ru.aston.homework.Lesson_1;
-
 import java.util.Arrays;
 /*
 10. Задать целочисленный массив, состоящий из элементов 0 и 1.
@@ -7,7 +6,6 @@ import java.util.Arrays;
 С помощью цикла и условия заменить 0 на 1, 1 на 0;
  */
 public class Task_10 {
-
     public void changeNumber() {
         int [] task10 = { 1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         System.out.print("Исходный массив: " );
