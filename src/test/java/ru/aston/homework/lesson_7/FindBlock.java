@@ -11,12 +11,12 @@ public class FindBlock {
         PageFactory.initElements(driver, this);
         this.driver = driver; }
     /**
-     * определение локатора логотипов платёжных систем
+     * определение локатора названия блока Онлайн пополнение без комисии
      */
-    @FindBy(xpath = "//*[@id=\"pay-section\"]/div/div/div[2]/section/div")
+    @FindBy(xpath = "//*[@id=\"pay-section\"]/div/div/div[2]/section/div/h2")
     public WebElement findBlock;
     /**
-     * метод для осуществления нажатия кнопки продолжить
+     * метод для осуществления присутствия названия блока
      */
     public boolean Block() {
         findBlock.isDisplayed();

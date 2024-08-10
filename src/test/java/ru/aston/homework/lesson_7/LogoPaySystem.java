@@ -14,7 +14,7 @@ public class LogoPaySystem {
      * определение локатора логотипов платёжных систем
      */
     @FindBy(xpath = "//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul/li[1]/img")
-    private WebElement logoPaySystem;
+    public WebElement logoPaySystem;
     /**
      * метод для осуществления нажатия кнопки продолжить
      */
